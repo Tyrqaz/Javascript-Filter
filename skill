@@ -1,0 +1,23 @@
+\css
+object-fit: contain
+flex-wrap: wrap;
+
+\js
+searchInput.addEventListener("keyup", (e)=>{
+  const value = e.target.value.toLowerCase();
+})
+
+if(value) {
+    displayProducts(data.filter(item => item.name.toLowerCase().indexOf(value) !== - 1))
+  }else{
+  // 如果search是空的話
+    displayProducts(data);
+}
+
+console.log(allCats.filter((item, i) => {
+  return allCats.indexOf(item) === i
+}));
+
+priceRange.addEventListener("input", (e)=> {})
+
+https://youtu.be/uDeb2iwZMkA?list=PLL5taXRLzd89hR7zTiog7kjYCrHN_n7IE&t=5100
